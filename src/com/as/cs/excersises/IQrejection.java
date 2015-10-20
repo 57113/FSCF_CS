@@ -26,6 +26,11 @@ public static void iq(){
 		
 	}
 	
+	if (errors >3){
+		System.out.println("Thats all your chances");
+		
+	}
+	
 	
 	
 	

@@ -11,6 +11,7 @@ conversation();
 public static void conversation(){
 	String hello = "Hello";
 	String name ;
+	@SuppressWarnings("unused")
 	String feeling ;
 	
 	
