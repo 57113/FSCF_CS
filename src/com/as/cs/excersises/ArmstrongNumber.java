@@ -8,16 +8,13 @@ public class ArmstrongNumber {
 	}
 @SuppressWarnings("null")
 public static void number(){
-	int numOne = 0;
-	int numTwo = 0;
-	int numThree = 0;
+	String IniVal = null;
 	@SuppressWarnings("resource")
 	Scanner sc=new Scanner(System.in);
 	String args[] = null;
- args[2] = sc.next();
-	numOne = Integer.parseInt(args[0]);
-	numTwo = Integer.parseInt(args[1]);
-	numThree= Integer.parseInt(args[2]);
+	IniVal = sc.next();
+	args[] = (String) IniVal.subSequence(0, 3);
+ 
 }
 
 }
