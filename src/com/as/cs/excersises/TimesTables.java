@@ -11,6 +11,6 @@ public static void timeTable(){
 	@SuppressWarnings("resource")
 	Scanner sc=new Scanner(System.in);
 	int table = sc.nextInt();
-for ()
+
 }
 }
