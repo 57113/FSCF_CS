@@ -9,8 +9,8 @@ public class ArmstrongNumber {
 @SuppressWarnings("null")
 public static void number(){
 	int numOne = 0;
-	int numTwo = 1;
-	int numThree = 2;
+	int numTwo = 0;
+	int numThree = 0;
 	@SuppressWarnings("resource")
 	Scanner sc=new Scanner(System.in);
 	String args[] = null;
