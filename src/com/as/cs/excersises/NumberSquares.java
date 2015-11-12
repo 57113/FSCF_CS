@@ -7,7 +7,7 @@ public class NumberSquares {
 	Scanner sc=new Scanner(System.in);
 	for (int a = 0; a == 9; a++){
 		System.out.print("Please enter a number");
-		userList[a] = sc.nextInt();
+		 userList[a] = sc.nextInt();
 	}
 		printArray(userList);
 	}	

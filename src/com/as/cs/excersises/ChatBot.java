@@ -1,11 +1,7 @@
 package com.as.cs.excersises;
-
 import java.util.Scanner;
-
 public class ChatBot {
-
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 conversation();
 	}
 public static void conversation(){
@@ -13,11 +9,8 @@ public static void conversation(){
 	String name ;
 	@SuppressWarnings("unused")
 	String feeling ;
-	
-	
 	@SuppressWarnings("resource")
 	Scanner sc=new Scanner(System.in);
-	
 System.out.print("What is your name human");
 name = sc.next();
 System.out.println(hello + " " + name);
