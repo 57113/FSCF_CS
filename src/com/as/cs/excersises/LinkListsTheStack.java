@@ -22,11 +22,23 @@ public Object get(int index){
 	if(index <= 0)
 		return null;
 	Node current = head.getNext();
-	for(int i = 1;i < index; i ++);{
-}
-}
-	public static void main(String[] args) {
-	
+	for(int i = 1;i < index; i ++);{if (current.getNext() == null);}return current.getData();}
+public boolean remove(int index){
+	//This will be able to remove a specified element in the array
+	if(index <1 || index > size()){
+		return false;}Node current = head;
+	for (int i = 1; i < index;i++){
+		if(current.getNext()==null)return false;current = current.getNext();}
+	current.setNext(current.getNext().getNext());counter--; // decrement the number of elements variable
+	return true;}
+public int size()
+// post: returns the number of elements in this list.
+{return counter;}
+public String toString(){Node current = head.getNext();String output = "";while(current != null)
+{output += "[" + current.getData().toString() + "]";current = current.getNext();}
+	return output;}
+
+public static void main(String[] args) {
 	}
 	private class Node{
 	//Declaration of the class called Node
@@ -37,9 +49,11 @@ public Object get(int index){
 	//This is the constructor for the Node
 		public Node (Object _data){next = null;data = _data;}
 	//This is another Node constructor for the node that points to the next node
+		@SuppressWarnings("unused")
 		public Node(Object _data, Node _next){next = _next;data = _data;}	
 	//The Getters and Setters
 		public Object getData() {return data;}
+		@SuppressWarnings("unused")
 		public void setData(Object _data) {data = _data;}
 		public Node getNext() {return next;}
 		public void setNext(Node _next) {next = _next;}
