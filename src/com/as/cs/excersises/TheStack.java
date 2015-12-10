@@ -1,6 +1,7 @@
 package com.as.cs.excersises;
 
 public class TheStack {
+@SuppressWarnings("unused")
 private int maxSize;
 private long[] stackArray;
 private int top;

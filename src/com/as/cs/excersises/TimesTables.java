@@ -10,6 +10,7 @@ public static void timeTable(){
 	System.out.print("Please Enter A Number Table: ");
 	@SuppressWarnings("resource")
 	Scanner sc=new Scanner(System.in);
+	@SuppressWarnings("unused")
 	int table = sc.nextInt();
 
 }
